@@ -9,3 +9,8 @@ There is a [Meetup page](https://www.meetup.com/de-DE/Zurich-Julia-User-Group/) 
 
 TBA 
 
+### Past Meetings
+
+#### Panel Data Analysis in Julia 
+
+The PDF and source code can be found [here](https://github.com/julia-users-zurich/julia-users-zurich.github.io/tree/master/talks/talk-2017-01).
