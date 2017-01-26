@@ -1,0 +1,234 @@
+#+STARTUP: beamer
+#+TITLE: Panel Data Analysis in Julia
+#+AUTHOR: Christian Kascha
+#+OPTIONS: toc:nil
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation]
+#+OPTIONS: H:1
+#+BEAMER_THEME: Spandau
+
+
+
+* Panel Data Analysis in Julia
+
+** Purpose of this Talk
+   - Present basic data analysis steps in Julia.
+   - Lower the entry costs for you. 
+
+** The Data Set
+   - Data on 48 U.S. states for 7 years from 1982 to 1988
+   - Stock and Watson: /Introduction to Econometrics, 3rd
+     International Edition, Companion Website/
+
+* Purpose of the Analysis 
+
+** Background
+   - One fourth of fatal crashes in the US involve a driver
+     who was drinking.
+
+** Interesting variables 
+   - fatality rate :: number of annual traffic deaths per
+        10,000 people
+   - beer tax :: the tax on a case of beer in 1988 dollars
+
+** Question
+   How does the beer tax affect traffic fatalities? 
+
+* Get the data
+
+** Read in the Data
+#+BEGIN_SRC julia :results output :session sa
+    using DataFrames
+    df = readtable("sw-datasets/csv/fatality_mod.csv"; 
+                   separator=';')
+    df[:mrall] *= 10000
+#+END_SRC
+
+
+#+RESULTS:
+
+** Let's check that we have done the right thing
+
+#+BEGIN_SRC julia :results output :session sa :exports both
+  summary(df)
+#+END_SRC
+
+* Checking the data 
+** Get the first six lines
+#+BEGIN_SRC julia :results output :session sa :exports both
+  head(df[:,1:4])
+#+END_SRC
+
+* Checking the data 
+
+** Get some descriptive stats 
+#+BEGIN_SRC julia :results output :session sa :exports both
+describe(df[:beertax])
+#+END_SRC
+
+* Checking the data 
+
+** Get some descriptive stats 
+#+BEGIN_SRC julia :results output :session sa :exports both
+describe(df[:mrall])
+#+END_SRC
+
+* Histogram of Beertax
+
+** Code 
+#+BEGIN_SRC 
+using Gadfly
+myTheme = Theme(default_color=colorant"grey")
+
+p = plot(df, x="beertax", Geom.histogram(bincount=20), 
+         Guide.title("Distribution Across States and Years"),
+         Guide.xlabel("Beertax (Dollar per Case)"), myTheme);
+
+img = PDF("beertax_hist.pdf", 12cm, 12cm)
+draw(img, p)
+#+END_SRC
+
+* Histogram of Beertax
+
+#+BEGIN_EXPORT latex
+  \includegraphics[scale=.6]{beertax_hist} 
+#+END_EXPORT  
+
+* Scatter Plot - All States and Years
+
+** Code 
+#+BEGIN_SRC 
+p = plot(df, y="mrall", x="beertax", Geom.point,
+         Guide.title("Distribution Across States and Years"),
+         Guide.xlabel("Beertax (Dollars per Case)"),
+         Guide.ylabel("Fatalities (per 10'000)"), myTheme)
+
+img = PDF("scatterplot.pdf", 12cm, 12cm)
+
+draw(img, p)
+#+END_SRC
+
+* Scatter Plot - All States and Years
+
+#+BEGIN_EXPORT latex
+  \includegraphics[scale=.6]{scatterplot} 
+#+END_EXPORT  
+
+
+* Using 1982 Data for an Ordinary Regression 
+
+** First try   
+  #+BEGIN_SRC julia :results output :session sa :exports both
+    df_1982 = df[(df[:year] .== 1982),:];
+
+    a, b = linreg(df_1982[:beertax], df_1982[:mrall])
+  #+END_SRC
+  Higher beer taxes lead to more fatalities???
+
+** By the way 
+   Get the source code with =edit(funktionname)= like
+   so: =edit(linreg)=. 
+
+* What if .... ? 
+
+** Some doubts  
+   - Suppose that states that have a more problematic
+     drinking culture are more likely to adopt a higher beer
+     tax?
+   - Could we observe "drinking culture"? 
+
+* Omitted variable bias in Pictures - Code   
+Let's look at some single states here: 
+
+#+BEGIN_SRC julia
+  myTheme2 = Theme(default_color=colorant"red")
+
+  df_state1 = df[(df[:state] .== 1),:]
+  p = plot(layer(df, y="mrall", x="beertax", Geom.point,
+		 order=1, myTheme),
+           layer(df_state1, y="mrall", x="beertax", Geom.point,
+		 order=2, myTheme2),
+           Guide.title("Distribution Across States and Years"),
+           Guide.xlabel("Beertax (Dollars per Case)"),
+           Guide.ylabel("Fatalities (per 10'000)"))
+
+  img = PDF("scatterplot_state1.pdf", 12cm, 12cm)
+
+  draw(img, p)
+#+END_SRC
+
+
+* Omitted variable bias in Pictures 
+
+#+BEGIN_EXPORT latex
+  \includegraphics[scale=.6]{scatterplot} 
+#+END_EXPORT  
+
+* Omitted variable bias in Pictures 
+
+#+BEGIN_EXPORT latex
+  \includegraphics[scale=.6]{scatterplot_state1} 
+#+END_EXPORT  
+
+* Omitted variable bias in Pictures 
+
+#+BEGIN_EXPORT latex
+  \includegraphics[scale=.6]{scatterplot_state4} 
+#+END_EXPORT  
+
+
+* Omitted variable bias in Pictures 
+
+#+BEGIN_EXPORT latex
+  \includegraphics[scale=.6]{scatterplot_state5} 
+#+END_EXPORT  
+
+
+* Panel Data Analysis with Fixed Effects
+
+   - Panel data analysis allows us to take *unobserved*
+     state differences that are *constant over the years*
+     into account by analysing all states and years
+     *jointly*.
+
+   - In Julia, the package that provides the necessary
+     routines is called *FixedEffectsModels*. 
+
+
+* Panel Data Analysis Syntax
+
+** Model
+   The econometric model looks like this
+     #+BEGIN_EXPORT latex
+     \begin{align*}
+       \text{fatalities}_{st} &= \alpha_{s} + \beta \text{beertax}_{st} + u_{st}
+     \end{align*}
+     #+END_EXPORT
+     
+** Syntax
+#+BEGIN_SRC julia :results output :session sa
+using FixedEffectModels
+
+df[:stateFixedEffect] = pool(df[:state]);
+panel_reg_1 = reg(mrall ~ beertax |> stateFixedEffect, df)
+#+END_SRC
+
+  
+* Panel Data Analysis Results
+
+#+BEGIN_EXPORT latex
+\input{panelresults.tex}
+#+END_EXPORT
+
+Taking state - specific differences into account, we obtain
+an estimate with a negative sign. 
+
+
+* Thank You! 
+
+  /Questions?/ 
+
+
+
+
+
