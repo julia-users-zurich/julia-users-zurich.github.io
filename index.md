@@ -27,7 +27,7 @@ Side topic:
 #### Julia tooling: IDEs and editors (2018-04-19)
 by Stefan Schelm & Mauro Werder
 
-- Stefan's [talk](talks/talk-2018-04/Julia_IDEs.pdf) on Juno (Atom)
+- Stefan's [talk](https://raw.githubusercontent.com/julia-users-zurich/julia-users-zurich.github.io/master/talks/talk-2018-04/Julia_IDEs.pdf) on Juno (Atom)
 - Mauro's [notes](talks/talk-2018-04/emacs.md) on using emacs.
 
 #### Panel Data Analysis in Julia (2017-01-12)

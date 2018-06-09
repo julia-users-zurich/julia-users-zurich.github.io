@@ -5,3 +5,11 @@ To publish:
 - wait for a minute or so for https://julia-users-zurich.github.io/ to update
 
 Pull requests welcome!
+
+Linking to PDFs like so:
+https://raw.githubusercontent.com/julia-users-zurich/julia-users-zurich.github.io/master/talks/talk-2018-04/Julia_IDEs.pdf
+instead of
+master/talks/talk-2018-04/Julia_IDEs.pdf
+or
+https://github.com/julia-users-zurich/julia-users-zurich.github.io/blob/master/talks/talk-2018-04/Julia_IDEs.pdf
+(otherwise github reders the pdf in-line, badly...)
