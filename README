@@ -1,0 +1,7 @@
+To publish:
+- make an markdown file
+- link it from the main page (index.md)
+- push to github
+- wait for a minute or so for https://julia-users-zurich.github.io/ to update
+
+Pull requests welcome!
