@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Julia User Group Zurich
+title: Welcome to the Julia Users Group Zurich
 ---
 
 We meet regularly to discuss coding in Julia or just hang out.
