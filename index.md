@@ -7,7 +7,7 @@ There is a
 where you can register, although you can come otherwise too (drop us
 an email).
 
-Organisers: Mauro Werder & Stefan Schelm
+Organisers: [Mauro Werder](https://github.com/mauro3/) & Stefan Schelm
 
 ### Next Meeting
 
