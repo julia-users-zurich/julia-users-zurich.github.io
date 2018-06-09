@@ -23,8 +23,7 @@ Organisers: [Mauro Werder](https://github.com/mauro3/) & Stefan Schelm
 by Stefan Schlem
 
 
-Side topic:
-- [sneak peak at Julia 0.7](talks/talk-2018-06/julia-07.md)
+Side topic: [sneak peak at Julia 0.7](talks/talk-2018-06/julia-07.md)
 
 ## Julia tooling: IDEs and editors (2018-04-19)
 by Stefan Schelm & Mauro Werder
