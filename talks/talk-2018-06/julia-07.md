@@ -1,4 +1,6 @@
-# Julia 0.7-alpha
+---
+title: Julia 0.7-alpha
+---
 
 Julia 0.7 is Julia 1.0 but with deprecations.
 

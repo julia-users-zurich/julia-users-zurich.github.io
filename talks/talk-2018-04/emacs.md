@@ -1,4 +1,6 @@
-# Emacs for Julia editing
+---
+title: Emacs for Julia editing
+---
 
 I use emacs for my Julia editing.  An edited version of my .emacs (not
 working) is below.
