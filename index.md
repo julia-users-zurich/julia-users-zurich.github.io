@@ -20,8 +20,7 @@ Organisers: [Mauro Werder](https://github.com/mauro3/) & Stefan Schelm
 # Past Meetings
 
 ## Failure analysis with the Weibull distribution (2018-06-07)
-by Stefan Schlem
-
+by Stefan Schlem. [Link to notebook](https://github.com/julia-users-zurich/julia-users-zurich.github.io/blob/master/talks/talk-2018-06/ju_talk_weibull.ipynb)
 
 Side topic: [sneak peak at Julia 0.7](talks/talk-2018-06/julia-07.md)
 
