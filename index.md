@@ -25,6 +25,11 @@ by Stefan Schlem
 
 Side topic: [sneak peak at Julia 0.7](talks/talk-2018-06/julia-07.md)
 
+## JuliaCon 2018 Gossip (2018-09-13)
+by Mauro Werder
+
+[Slides](talks/talk-2018-09-13/slides.md)
+
 ## Julia tooling: IDEs and editors (2018-04-19)
 by Stefan Schelm & Mauro Werder
 
