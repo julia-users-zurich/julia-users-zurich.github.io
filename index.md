@@ -15,11 +15,11 @@ Organisers: [Mauro Werder](https://github.com/mauro3/) & Stefan Schelm
 
 **Please contact us if you have something to present!**
 
-- 13 September 2018: JuliaCon 2018 Gossip
+- 13 September 2018, 19:00: JuliaCon 2018 Gossip
 
-- 8 November 2018: TBD
+- 8 November 2018, 19:00: TBD
 
-- 17 January 2019: TBD
+- 17 January 2019, 19:00: TBD
 
 # Past Meetings
 
