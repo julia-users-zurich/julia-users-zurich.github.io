@@ -9,6 +9,8 @@ There is a
 where you can register, although you can come otherwise too (drop us
 an email).  This is also where details about the meetups, such as location will be posted.
 
+This page is hosted on [GitHub](https://github.com/julia-users-zurich/julia-users-zurich.github.io); feel free to file issues or open pull-requests.
+
 Organisers: [Mauro Werder](https://github.com/mauro3/) & Stefan Schelm
 
 # Next Meetings
