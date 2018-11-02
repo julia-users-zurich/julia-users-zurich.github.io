@@ -7,7 +7,7 @@ We meet regularly to discuss coding in Julia or just hang out.
 There is a
 [Meetup page](https://www.meetup.com/de-DE/Zurich-Julia-User-Group/)
 where you can register, although you can come otherwise too (drop us
-an email).
+an email).  This is also where details about the meetups, such as location will be posted.
 
 Organisers: [Mauro Werder](https://github.com/mauro3/) & Stefan Schelm
 
@@ -15,9 +15,7 @@ Organisers: [Mauro Werder](https://github.com/mauro3/) & Stefan Schelm
 
 **Please contact us if you have something to present!**
 
-- 13 September 2018, 19:00: JuliaCon 2018 Gossip
-
-- 8 November 2018, 19:00: Terminal magic and magic macros
+- 8 November 2018, 19:00: [Terminal magic and magic macros](https://www.meetup.com/Zurich-Julia-User-Group/events/256038057)
 
 - 17 January 2019, 19:00: TBD
 
