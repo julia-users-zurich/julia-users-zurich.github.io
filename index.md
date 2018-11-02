@@ -17,7 +17,7 @@ Organisers: [Mauro Werder](https://github.com/mauro3/) & Stefan Schelm
 
 - 13 September 2018, 19:00: JuliaCon 2018 Gossip
 
-- 8 November 2018, 19:00: TBD
+- 8 November 2018, 19:00: Terminal magic and magic macros
 
 - 17 January 2019, 19:00: TBD
 
