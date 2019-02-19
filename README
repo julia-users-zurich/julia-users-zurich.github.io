@@ -1,5 +1,5 @@
 To publish:
-- make an markdown file
+- make a markdown file
 - link it from the main page (index.md)
 - push to github
 - wait for a minute or so for https://julia-users-zurich.github.io/ to update
@@ -12,4 +12,4 @@ instead of
 master/talks/talk-2018-04/Julia_IDEs.pdf
 or
 https://github.com/julia-users-zurich/julia-users-zurich.github.io/blob/master/talks/talk-2018-04/Julia_IDEs.pdf
-(otherwise github reders the pdf in-line, badly...)
+(otherwise github renders the pdf in-line, badly...)

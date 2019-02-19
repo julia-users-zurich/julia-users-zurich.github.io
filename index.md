@@ -9,19 +9,26 @@ There is a
 where you can register, although you can come otherwise too (drop us
 an email).
 
-Organisers: [Mauro Werder](https://github.com/mauro3/) & Stefan Schelm
+Organisers: [Mauro Werder](https://github.com/mauro3/)
 
 # Next Meetings
 
 **Please contact us if you have something to present!**
 
-- 13 September 2018: JuliaCon 2018 Gossip
+- 7 March 2019, 19:00
+- 11 April 2019, 19:00
+- 13 June 2019, 19:00
 
-- 8 November 2018: TBD
-
-- 17 January 2019: TBD
+at room F 33.1 in ETH Hauptgebäude, Zurich.
 
 # Past Meetings
+
+## Terminal magic and magic macros (2018-11-08)
+
+Simon Schoelly's [talk](https://raw.githubusercontent.com/julia-users-zurich/julia-users-zurich.github.io/master/talks/KittyTerminalImages.jl.pdf) on
+KittyTerminalImages.jl
+
+Mauro did an intro do meta-programming
 
 ## JuliaCon 2018 Gossip (2018-09-13)
 by Mauro Werder
