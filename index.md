@@ -7,7 +7,9 @@ We meet regularly to discuss coding in Julia or just hang out.
 There is a
 [Meetup page](https://www.meetup.com/de-DE/Zurich-Julia-User-Group/)
 where you can register, although you can come otherwise too (drop us
-an email).
+an email).  This is also where details about the meetups, such as location will be posted.
+
+This page is hosted on [GitHub](https://github.com/julia-users-zurich/julia-users-zurich.github.io); feel free to file issues or open pull-requests.
 
 Organisers: [Mauro Werder](https://github.com/mauro3/)
 
@@ -19,11 +21,11 @@ Organisers: [Mauro Werder](https://github.com/mauro3/)
 - 11 April 2019, 19:00
 - 13 June 2019, 19:00
 
-at room F 33.1 in ETH Hauptgebäude, Zurich.
+in room F 33.1 of ETH Hauptgebäude, Zurich.
 
 # Past Meetings
 
-## Terminal magic and magic macros (2018-11-08)
+## [Terminal magic and magic macros](https://www.meetup.com/Zurich-Julia-User-Group/events/256038057) (2018-11-08)
 
 Simon Schoelly's [talk](https://raw.githubusercontent.com/julia-users-zurich/julia-users-zurich.github.io/master/talks/KittyTerminalImages.jl.pdf) on
 KittyTerminalImages.jl
