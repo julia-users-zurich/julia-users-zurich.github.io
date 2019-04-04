@@ -17,8 +17,7 @@ Organisers: [Mauro Werder](https://github.com/mauro3/)
 
 **Please contact us if you have something to present!**
 
-- 7 March 2019, 19:00
-- 11 April 2019, 19:00
+- 11 April 2019, 19:00 Intro to Metaprogramming Part II (Mauro)
 - 13 June 2019, 19:00
 
 in room F 33.1 of ETH Hauptgebäude, Zurich.
