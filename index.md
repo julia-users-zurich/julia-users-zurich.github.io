@@ -17,12 +17,14 @@ Organisers: [Mauro Werder](https://github.com/mauro3/)
 
 **Please contact us if you have something to present!**
 
-- 11 April 2019, 19:00 Intro to Metaprogramming Part II (Mauro)
-- 13 June 2019, 19:00
+- 13 June 2019, 19:00 Intro to Julia (talk + hands-on)
 
 in room F 33.1 of ETH Hauptgebäude, Zurich.
 
 # Past Meetings
+
+## Intro to Metaprogramming Part II (2019-04-11)
+by Mauro
 
 ## [Terminal magic and magic macros](https://www.meetup.com/Zurich-Julia-User-Group/events/256038057) (2018-11-08)
 
