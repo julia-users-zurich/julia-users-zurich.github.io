@@ -17,7 +17,8 @@ Organisers: [Mauro Werder](https://github.com/mauro3/)
 
 **Please contact us if you have something to present!**
 
-- 13 June 2019, 19:00 Intro to Julia (talk + hands-on)
+- 13 June 2019, 19:00 Intro to Julia: talk + hands-on
+  ([details & installation instructions](https://www.meetup.com/Zurich-Julia-User-Group/events/259098186/))
 
 in room F 33.1 of ETH Hauptgebäude, Zurich.
 
