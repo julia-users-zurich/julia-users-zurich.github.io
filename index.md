@@ -2,7 +2,7 @@
 title: Welcome to the Julia Users Group Zurich
 ---
 
-We meet regularly to discuss coding in Julia or just hang out.
+We meet to discuss coding in Julia or just hang out.
 
 There is a
 [Meetup page](https://www.meetup.com/de-DE/Zurich-Julia-User-Group/)
@@ -11,18 +11,21 @@ an email).  This is also where details about the meetups, such as location will 
 
 This page is hosted on [GitHub](https://github.com/julia-users-zurich/julia-users-zurich.github.io); feel free to file issues or open pull-requests.
 
-Organisers: [Mauro Werder](https://github.com/mauro3/)
-
-# Next Meetings
+Organisers: [Mauro Werder](https://github.com/mauro3/),
 
 **Please contact us if you have something to present!**
 
-- 13 June 2019, 19:00 Intro to Julia: talk + hands-on
-  ([details & installation instructions](https://www.meetup.com/Zurich-Julia-User-Group/events/259098186/))
+# Next Meetings
 
-in room F 33.1 of ETH Hauptgebäude, Zurich.
+## TBD: 13 March 2024
 
 # Past Meetings
+
+## Intro to Julia: talk + hands-on (13 June 2019-06-13)
+
+([Details & installation instructions](https://www.meetup.com/Zurich-Julia-User-Group/events/259098186/))
+
+[Notebook](https://gist.github.com/mauro3/6089af612380cb39ca00016d4f632cc2)
 
 ## Intro to Metaprogramming Part II (2019-04-11)
 by Mauro
