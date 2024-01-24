@@ -17,11 +17,27 @@ Organisers: [Mauro Werder](https://github.com/mauro3/),
 
 # Next Meetings
 
-## TBD: 13 March 2024
+## Risen from the dead, and plotting with Makie (2024-03-13)
+
+University Zurich Hauptgebäude, Room KO2-F-152
+Karl Schmid-Strasse 4, Zurich
+
+**Program:**
+
+Introduction [10min]
+
+Hands-on: Plotting with Makie.jl [by Ivan Utkin, ca. 40min, please have Julia 1.10 installed (yes, 1.10 and not anything lower) and CairoMakie.jl]
+
+Risen from the dead: the old/new Julia Meetup Zurich [20min]
+- discussion on how and what this meetup should be
+- ideas for next meetings
+- move off meetup.com
+
+Free discussions and help on Julia, packages, etc. [10min]
 
 # Past Meetings
 
-## Intro to Julia: talk + hands-on (13 June 2019-06-13)
+## Intro to Julia: talk + hands-on (2019-06-13)
 
 ([Details & installation instructions](https://www.meetup.com/Zurich-Julia-User-Group/events/259098186/))
 
