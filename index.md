@@ -11,9 +11,11 @@ an email).  This is also where details about the meetups, such as location will 
 
 This page is hosted on [GitHub](https://github.com/julia-users-zurich/julia-users-zurich.github.io); feel free to file issues or open pull-requests.
 
-Organisers: [Mauro Werder](https://github.com/mauro3/),
+Organisers: [Mauro Werder](https://github.com/mauro3/)
 
 **Please contact us if you have something to present!**
+
+**Please contact us if you want to help organise our meetings!**
 
 # Next Meetings
 
