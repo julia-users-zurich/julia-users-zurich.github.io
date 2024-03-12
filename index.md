@@ -21,7 +21,7 @@ Organisers: [Mauro Werder](https://github.com/mauro3/)
 
 ## Risen from the dead, and plotting with Makie (2024-03-13)
 
-University Zurich Hauptgebäude, Room KO2-F-152
+University Zurich Hauptgebäude, [Room KO2-F-152](https://julia-users-zurich.github.io/misc/uzh-k02-building.html)
 Karl Schmid-Strasse 4, Zurich
 
 **Program:**
