@@ -1,6 +1,11 @@
 ---
-title: Welcome to the Julia Users Group Zurich
+title: Disbanded ~~Welcome to the Julia Users Group Zurich~~
 ---
+
+**This user group has been discontinued.  However, if you are interested to run this, open an issue on the GitHub [repo](https://github.com/julia-users-zurich/julia-users-zurich.github.io)**
+
+Wayback machine link to the former
+[meetup.com](https://web.archive.org/web/20230529223120/https://www.meetup.com/Zurich-Julia-User-Group/) site.
 
 We meet to discuss coding in Julia or just hang out.
 
@@ -21,7 +26,7 @@ Organisers: [Mauro Werder](https://github.com/mauro3/)
 
 ## Risen from the dead, and plotting with Makie (2024-03-13)
 
-University Zurich Hauptgebäude, [Room KO2-F-152](https://julia-users-zurich.github.io/misc/uzh-k02-building.html)
+University Zurich Hauptgebäude, [Room KO2-F-152](https://julia-users-zurich.github.io/misc/uzh-k02-building.html),
 Karl Schmid-Strasse 4, Zurich
 
 **Program:**
