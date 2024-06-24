@@ -1,5 +1,5 @@
 ---
-title: Disbanded: the Julia Users Group Zurich
+title: Disbanded, the Julia Users Group Zurich
 ---
 
 **This user group has been discontinued.  However, if you are interested to revive it and run it, open an issue on the GitHub [repo](https://github.com/julia-users-zurich/julia-users-zurich.github.io)**
