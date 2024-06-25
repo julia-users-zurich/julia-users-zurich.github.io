@@ -24,6 +24,10 @@ Organisers: [Mauro Werder](https://github.com/mauro3/)
 
 # Next Meetings
 
+None
+
+# Past Meetings
+
 ## Risen from the dead, and plotting with Makie (2024-03-13)
 
 University Zurich Hauptgebäude, [Room KO2-F-152](https://julia-users-zurich.github.io/misc/uzh-k02-building.html),
@@ -41,8 +45,6 @@ Risen from the dead: the old/new Julia Meetup Zurich [20min]
 - move off meetup.com
 
 Free discussions and help on Julia, packages, etc. [10min]
-
-# Past Meetings
 
 ## Intro to Julia: talk + hands-on (2019-06-13)
 
